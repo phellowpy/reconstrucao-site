@@ -1,9 +1,8 @@
 # reconstrucao-site
 
-*arquivo
+# arquivo
 1-alteraçao do index, ele estava em pagina de contato em vez de uma pagina inicial 
 
-*arquivo
 2-arquivos html repetidos e inuteis foram removidos. arquivos com nomes nada a ve foram reformulados tambem
 
 <hr>
