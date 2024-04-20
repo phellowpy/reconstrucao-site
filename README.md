@@ -7,14 +7,14 @@
 
 <hr>
 
-*html
+# html
 3-redirecionamento para outras paginas adicionado (nao tinha nem botao ou nav bar pra navegar entras as paginas, algumas ate tinham mas nem funcionava ou era completo)
 
-*css
+<hr>
+
+# css
 4-adicionado icones externos e fonte externa
 
-*css
 5-sites foram alterados para o tema escuro por padrao (convenhamos o tema branco doi a vista)
 
-*css
 6-icone para o site
