@@ -4,4 +4,4 @@
 
 2-arquivos html repetidos e inuteis foram removidos. arquivos com nomes nada a ve foram reformulados tambem
 
-3-redirecionamento para outras paginas adicionado (nao tinha nem botao ou nav bar pra navegar entras as paginas)
+3-redirecionamento para outras paginas adicionado (nao tinha nem botao ou nav bar pra navegar entras as paginas, algumas ate tinham mas nem funcionava ou era completo)
