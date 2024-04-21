@@ -1,6 +1,7 @@
 # reconstrucao-site
 
-## Esse e um repositorio com o objetivo de refazer o projeto de um colega de classe. Com esse "refazer" iremos colocar itens para a melhora do site.
+### Esse e um repositorio com o objetivo de refazer o projeto de um colega de classe. Com esse "refazer" iremos colocar itens para a melhora do site.
+### repositorio de exemplo: https://eversonmayer2008.github.io/novo-projeto/
 
 # arquivo
 ・alteraçao do index, ele estava em pagina de contato em vez de uma pagina inicial 
