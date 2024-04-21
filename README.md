@@ -1,6 +1,6 @@
 # reconstrucao-site
 
-## Esse e um repositorio com o objetivo de refazer o projeto de um colega de classe meu. Com esse "refazer" iremos colocar itens para a melhora do site.
+## Esse e um repositorio com o objetivo de refazer o projeto de um colega de classe. Com esse "refazer" iremos colocar itens para a melhora do site.
 
 # arquivo
 ・alteraçao do index, ele estava em pagina de contato em vez de uma pagina inicial 
