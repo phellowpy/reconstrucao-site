@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King・FAQ</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="icon" type="imagem/png" class="imagem__sem-fundo" href="https://i.pinimg.com/originals/88/0d/4f/880d4f0de6c0af5b28d41ca6db2fc4ef.png"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="all.js" type="text/javascript" defer></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color:rgb(43, 43, 43);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center; /* Centralize o conteúdo */
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff4500;
+        }
+
+        .faq-item {
+            background-color: orange;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+
+        .faq-item h2 {
+            margin-top: 0;
+            color: #ff4500;
+        }
+
+        .faq-item p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1px;
+            background-color: #d9534f;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+        <!-- tag de áudio para o som ao passar o mouse -->
+        <audio id="somBurguer" src="chezburguer.mp3"></audio>
+
+    <header>
+        <div class="logo">
+            <img src="https://i.pinimg.com/originals/88/0d/4f/880d4f0de6c0af5b28d41ca6db2fc4ef.png" alt="Burger King Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a onmouseover="playSound('somBurguer')" href="index.html"><ion-icon name="home-outline"></ion-icon>&nbsp;Home</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="sobre.html"><ion-icon name="alert-circle-outline"></ion-icon>&nbsp;Sobre</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="blog.html"><ion-icon name="bulb-outline"></ion-icon>&nbsp;Blog</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="noticias.html"><ion-icon name="megaphone-outline"></ion-icon>&nbsp;Noticias</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="carreira.html"><ion-icon name="briefcase-outline"></ion-icon>&nbsp;Carreira</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="midia.html"><ion-icon name="camera-outline"></ion-icon>&nbsp;Midias</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="galeria.html"><ion-icon name="images-outline"></ion-icon>&nbsp;Galeria</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="programa-fidelidade.html"><ion-icon name="cash-outline"></ion-icon>&nbsp;Programa Fidelidade</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="perguntas.html"><ion-icon name="extension-puzzle-outline"></ion-icon>&nbsp;Perguntas</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="contato.html"><ion-icon name="bar-chart-outline"></ion-icon>&nbsp;Feedback</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="contato.html"><ion-icon name="call-outline"></ion-icon>&nbsp;contato</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="login.html"><ion-icon name="person-circle-outline"></ion-icon>&nbsp;Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/originals/88/0d/4f/880d4f0de6c0af5b28d41ca6db2fc4ef.png" alt="Logo Burger King" style="max-width: 200px; height: auto;">
+        <h1 style="color:red">Perguntas Frequentes (FAQ) - Burger King</h1>
+        <div class="faq-item">
+            <h2 style="color:red">Como faço para encontrar um Burger King perto de mim?</h2>
+            <p style="color:white">Para encontrar o Burger King mais próximo de você, visite nosso site oficial e utilize a ferramenta de localização.</p>
+        </div>
+        <div class="faq-item">
+            <h2 style="color:red">Vocês oferecem opções vegetarianas ou veganas?</h2>
+            <p style="color:white">Sim, oferecemos opções vegetarianas e veganas em nosso menu, incluindo hambúrgueres à base de plantas.</p>
+        </div>
+        <div class="faq-item">
+            <h2 style="color:red">Como posso entrar em contato com o suporte ao cliente?</h2>
+           <p style="color:white">Você pode entrar em contato com nosso suporte ao cliente ligando para o número X ou enviando um e-mail para <a href="https://www.tribunapr.com.br/noticias/curitiba-regiao/burger-king-lanca-em-curitiba-atendimento-pelo-whatsapp-veja-como-funciona/">info@burgerking.com</a></p>
+        </div>
+        
+        <!-- Adicione mais perguntas frequentes aqui -->
+        <div class="faq-item">
+            <h2 style="color:red">Vocês oferecem serviço de delivery?</h2>
+            <p style="color:white">Sim, oferecemos serviço de delivery em algumas localidades. Para verificar se entregamos em sua área, consulte nosso site oficial ou aplicativos de entrega parceiros.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2 style="color:red">Vocês têm promoções ou cupons disponíveis?</h2>
+            <p style="color:white">Sim, regularmente oferecemos promoções e cupons para nossos clientes. Fique de olho em nosso site e nas redes sociais para ficar atualizado sobre as ofertas atuais.</p>
+        </div>
+
+        <!-- Mais informações sobre a empresa, política de privacidade, etc. -->
+        <div class="faq-item">
+            <h2 style="color:red">Como posso saber mais sobre a empresa?</h2>
+            <p style="color:white">Para saber mais sobre nossa empresa, nossa história e nossos valores, visite a seção "Sobre Nós" em nosso site oficial.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2 style="color:red">Qual é a política de privacidade do Burger King?</h2>
+            <p style="color:white">Nossa política de privacidade pode ser encontrada no rodapé do nosso site oficial. Lá você encontrará informações detalhadas sobre como tratamos seus dados pessoais.</p>
+        </div>
+    </div>
+    <br><br>
+    <footer>
+        <p>&copy; 2024 Burger King. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

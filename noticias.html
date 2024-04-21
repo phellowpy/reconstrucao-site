@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King・Notícias</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="icon" type="imagem/png" class="imagem__sem-fundo" href="https://i.pinimg.com/originals/88/0d/4f/880d4f0de6c0af5b28d41ca6db2fc4ef.png"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="all.js" type="text/javascript" defer></script>
+    <style>
+
+        body {
+            color: white;
+        }
+
+        header {
+            background-color: #5bc0de;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #5bc0de;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        article {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        h1, h2, h3 {
+            color: red;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .post-date {
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        .contact-form {
+            margin-bottom: 40px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #5bc0de;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #5bc0de;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #46b8da;
+        }
+
+        .featured-promotions {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .promotion-item {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #5bc0de;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+        <!-- tag de áudio para o som ao passar o mouse -->
+        <audio id="somBurguer" src="chezburguer.mp3"></audio>
+
+    <header>
+        <div class="logo">
+            <img src="https://i.pinimg.com/originals/88/0d/4f/880d4f0de6c0af5b28d41ca6db2fc4ef.png" alt="Burger King Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a onmouseover="playSound('somBurguer')" href="index.html"><ion-icon name="home-outline"></ion-icon>&nbsp;Home</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="sobre.html"><ion-icon name="alert-circle-outline"></ion-icon>&nbsp;Sobre</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="blog.html"><ion-icon name="bulb-outline"></ion-icon>&nbsp;Blog</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="noticias.html"><ion-icon name="megaphone-outline"></ion-icon>&nbsp;Noticias</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="carreira.html"><ion-icon name="briefcase-outline"></ion-icon>&nbsp;Carreira</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="midia.html"><ion-icon name="camera-outline"></ion-icon>&nbsp;Midias</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="galeria.html"><ion-icon name="images-outline"></ion-icon>&nbsp;Galeria</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="programa-fidelidade.html"><ion-icon name="cash-outline"></ion-icon>&nbsp;Programa Fidelidade</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="perguntas.html"><ion-icon name="extension-puzzle-outline"></ion-icon>&nbsp;Perguntas</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="contato.html"><ion-icon name="bar-chart-outline"></ion-icon>&nbsp;Feedback</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="contato.html"><ion-icon name="call-outline"></ion-icon>&nbsp;contato</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="login.html"><ion-icon name="person-circle-outline"></ion-icon>&nbsp;Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header>
+        <h1>Blog e Notícias Burger King</h1>
+    </header>
+<br>
+    <nav>
+        <a href="#featured-promotions">Promoções</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+<div class="espaco">
+    <center>
+    <section>
+        <article>
+            <h2>Novo Lanche Chega ao Menu</h2>
+            <p>Os novos sanduíches Bacon Lover e Bacon Lover Chicken já estão disponíveis através do aplicativo do Burguer King pelo preço de R$39,90 o combo.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThKU41tbHy3-BMIRvPwMHoqkilWAnMwiA3uFYf29kpq4ONzoNhEV3oN_VCg8nKCRz6268&usqp=CAU">
+            <p class="post-date">Publicado em: 01 de Março de 2024</p>
+        </article>
+
+        <article>
+            <h2>Parceria com Novo Fornecedor de Ingredientes</h2>
+            <p>Curabitur eu justo in elit eleifend hendrerit vel id libero. Praesent bibendum, elit ut malesuada malesuada.</p>
+            <p class="post-date">Publicado em: 15 de Fevereiro de 2024</p>
+        </article>
+    </section>
+
+    <section id="featured-promotions" class="featured-promotions">
+        <h2>Promoções em Destaque</h2>
+        <div class="promotion-item">
+            <h3>Promoção 1</h3>
+            <p></p>
+            <img src="https://conteudo.imguol.com.br/c/noticias/e3/2019/07/01/burger-king-hash-fries-1562006988899_v2_900x506.jpg.webp">
+            
+        </div>
+
+        <div class="promotion-item">
+            <h3>Promoção 2</h3>
+            <p></p>
+            <img src="https://gkpb.com.br/wp-content/uploads/2021/08/bk-todo-dia-promocao-9-90-2-por-16-90-burger-king-promo-clube-bk-gkpb-696x392.jpg.webp">
+        </div>
+    </section></center></div>
+
+    <img src="https://w1.pngwing.com/pngs/264/707/png-transparent-burger-logo-burger-king-hamburger-milkshake-fast-food-restaurant-yellow.png" alt="Burger King Logo">
+
+    <footer>
+        <p>&copy; 2024 Burger King. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

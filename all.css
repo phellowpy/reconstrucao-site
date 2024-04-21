@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:wght@100;300&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 43, 43);
+    font-family: 'Protest Riot', sans-serif;
+}
+
+/* header + nav */
+
+header {
+    background-color: #FFA500;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-right: 20px; /* Adicionando margem à direita para a logo */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 252, 83);
+    background-color: #330505;
+    text-decoration: none;
+}
+
+.espaco {
+    margin: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TODO: slide */
+* {box-sizing:border-box}
+
+/* conteiner do slide */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+}
+
+/* esconda as imagens por padrao */
+.mySlides {
+  display: none;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+/* botao de voltar e avançar */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* posiçao do botao de avançar na direita*/
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* texto de baixo */
+.text {
+  color: #f2f2f2;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  border: 2px solid #f2f2f2;
+  backdrop-filter: blur(25px);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.text-black {
+  color: #000000;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  border: 2px solid #000000;
+  backdrop-filter: blur(25px);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* raridade/grupos das skins */
+.raridade {
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

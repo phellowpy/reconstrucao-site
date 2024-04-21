@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King・Blog</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="icon" type="imagem/png" class="imagem__sem-fundo" href="https://i.pinimg.com/originals/88/0d/4f/880d4f0de6c0af5b28d41ca6db2fc4ef.png"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="all.js" type="text/javascript" defer></script>
+    <style>
+
+        body {
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            background-color: #5bc0de;
+            color: #fff;
+            padding: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        article {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #5bc0de;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .post-date {
+            font-size: 0.8em;
+            color: #d15353;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #5bc0de;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .espaco {
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+        <!-- tag de áudio para o som ao passar o mouse -->
+        <audio id="somBurguer" src="chezburguer.mp3"></audio>
+
+    <header>
+        <div class="logo">
+            <img src="https://i.pinimg.com/originals/88/0d/4f/880d4f0de6c0af5b28d41ca6db2fc4ef.png" alt="Burger King Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a onmouseover="playSound('somBurguer')" href="index.html"><ion-icon name="home-outline"></ion-icon>&nbsp;Home</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="sobre.html"><ion-icon name="alert-circle-outline"></ion-icon>&nbsp;Sobre</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="blog.html"><ion-icon name="bulb-outline"></ion-icon>&nbsp;Blog</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="noticias.html"><ion-icon name="megaphone-outline"></ion-icon>&nbsp;Noticias</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="carreira.html"><ion-icon name="briefcase-outline"></ion-icon>&nbsp;Carreira</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="midia.html"><ion-icon name="camera-outline"></ion-icon>&nbsp;Midias</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="galeria.html"><ion-icon name="images-outline"></ion-icon>&nbsp;Galeria</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="programa-fidelidade.html"><ion-icon name="cash-outline"></ion-icon>&nbsp;Programa Fidelidade</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="perguntas.html"><ion-icon name="extension-puzzle-outline"></ion-icon>&nbsp;Perguntas</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="contato.html"><ion-icon name="bar-chart-outline"></ion-icon>&nbsp;Feedback</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="contato.html"><ion-icon name="call-outline"></ion-icon>&nbsp;contato</a></li>
+                <li><a onmouseover="playSound('somBurguer')" href="login.html"><ion-icon name="person-circle-outline"></ion-icon>&nbsp;Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header>
+        <h1>Blog e Notícias Burger King</h1>
+    </header>
+
+    <div class="espaco">
+        <center>
+    <section>
+        <article>
+            <h2>Novo Lanche Chega ao Menu</h2>
+            <p>O cliente é muito importante, o cliente será seguido pelo cliente. Ninguém é sempre justo ou livre.</p>
+            <p class="post-date">Publicado em: 01 de Março de 2024</p>
+        </article>
+
+        <article>
+            <h2>Parceria com Novo Fornecedor de Ingredientes</h2>
+            <p>Curabitur eu apenas em elit eleifend hendrerit ou gratuitamente. É para estar bêbado, como esperado.</p>
+            <p class="post-date">Publicado em: 15 de Fevereiro de 2024</p>
+        </article>
+
+        
+    </section>
+        <h3>Principais fornecedores</h3>
+        <p>Entre os fornecedores, temos Kerry, Carino, Cellier, BRF, JBS, Marfrig, Refricon, Polenghi, Vigor, Heinz, Aryzta, Sterbom, Lactalis, Mr Bey, Marvi, entre outros. Todos eles fazem parte da nossa cadeia produtiva e de suprimentos.</p>
+    <img src="https://shoppingmueller.com.br/wp-content/uploads/2021/11/burguer-king-foto-site.jpg" width="100%" height="1%"></center></div>
+        <footer>
+        <p>&copy; 2024 Burger King. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
